@@ -6,7 +6,7 @@ const navLinks = document.querySelectorAll(".navbar-nav .nav-link");
 
 // Agrega un evento click a cada enlace de navegación
 navLinks.forEach((link) => {
-    link.addEventListener("click", () => {
+    link.addEventListener("click", (e) => { // Agrega el parámetro 'e' para el evento
         // Cierra la barra de navegación cuando se hace clic en un enlace
         if (menuToggle.getAttribute("aria-expanded") === "true") {
             menuToggle.click();
