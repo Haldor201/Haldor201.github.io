@@ -129,7 +129,7 @@ h1 {
         justify-content: center;
     }
     .img-fluid{
-        height: 150px;
+        height: 100%px;
         width: 100%px;
 }
 }
