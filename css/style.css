@@ -5,6 +5,11 @@
         font-family: 'Young Serif', serif;
 
 }
+.img-fluid{
+        height: 200px;
+        width: 400px;
+        border-radius: 10px;
+}
 .font_0 {
     font: var(--font_0);
     color: rgb(var(--color_15));
@@ -126,6 +131,10 @@ h1 {
         align-items: center;
         justify-content: center;
     }
+    .img-fluid{
+        height: 150px;
+        width: 250px;
+}
 }
 @media screen and (max-width: 500px) {
     
@@ -370,11 +379,10 @@ body::-webkit-scrollbar-thumb{
     background-color: rgb(126, 126, 126);
 }
 .imagen23{
-
     width: 100%;
     height: auto;
     object-fit: cover;
-
+    border-radius: 10px;
 }
 #aboutsUs{
     padding-top: 60px;
@@ -396,10 +404,6 @@ body {
   padding-top: 10px;
   padding-bottom: 10px;
   background-color: #EEEEEE;
-}
-.img-fluid{
-        height: 200px;
-        width: 400px;
 }
 #whatsapp {
   position: fixed;
