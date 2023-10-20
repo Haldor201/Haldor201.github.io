@@ -4,6 +4,13 @@ const menuToggle = document.getElementById("menu-toggle");
 // Selecciona todos los enlaces de navegación en la barra
 const navLinks = document.querySelectorAll(".navbar-nav .nav-link");
 
+const recargar=document.getElementById('recargar');
+
+recargar.addEventListener('click',()=>{
+    window.scrollTo(0, 0);
+    location.reload();
+})
+
 // Agrega un evento click a cada enlace de navegación
 navLinks.forEach((link) => {
     link.addEventListener("click", (e) => { // Agrega el parámetro 'e' para el evento
