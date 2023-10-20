@@ -133,7 +133,7 @@ h1 {
     }
     .img-fluid{
         height: 150px;
-        width: 250px;
+        width: 100%px;
 }
 }
 @media screen and (max-width: 500px) {
