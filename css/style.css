@@ -188,7 +188,7 @@ nav{
         }
     }
 #principal{
-        background-image:url(../imgs/car.jpg);
+        background-image:url(../imgs/maserati-car.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -199,7 +199,7 @@ nav{
 .principal-info{
     position: relative;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-80%);
     padding: 0;
     width: 70%;
 }
