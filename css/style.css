@@ -443,7 +443,11 @@ nav{
 }
 .desabolladuraVideo{
   width: 50%;
-  height: 50%;
+  height: 100%;
+}
+.videoParticulares{
+  width: 80%;
+  height: 100%;
 }
 .contenido{
   padding-top: 30px;
@@ -515,10 +519,13 @@ p{margin-bottom: 10px;}
     padding-bottom: 10px;
   }
   #aboutsUs{
-    padding-top: 390px;
+    padding-top: 100px;
   }
   #aboutsUs div{
     width: 100%;
+  }
+  .clientesPar{
+    padding-top: 420px;
   }
 
 }
