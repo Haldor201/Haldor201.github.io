@@ -9,13 +9,13 @@
         box-sizing: border-box;
 }
 h1{
-  color: rgb(199, 28, 28);
+  color: rgb(95, 0, 0);
 }
 h2{
-  color: rgb(199, 28, 28);
+  color: rgb(95, 0, 0);
 }
 h3{
-  color: rgb(199, 28, 28);
+  color: rgb(95, 0, 0);
 }
 .container-fluid{
   padding: 0;
@@ -206,8 +206,9 @@ nav{
     color: rgb(255, 255, 255);
 }
 .principal-info{
+  font-size: 25px;
     position: relative;
-    padding: 0;
+    padding-top: 50px;
     display: grid;
     place-items: center;
 }
@@ -552,7 +553,7 @@ p{margin-bottom: 10px;}
   .col-6{
     width: 100%;
   }
-  .comp-kq5dfsdv p{
+  .comp-kq5dfsdv {
     width: 100%;
   }
   .logos:before, .logos:after {
@@ -706,7 +707,4 @@ hr:after {
   .Organigramadiv{
     display: none;
   }
-}
-.menu__logo{
-  color: white;
 }
