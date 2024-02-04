@@ -708,3 +708,11 @@ hr:after {
     display: none;
   }
 }
+.logoimg{
+  width: 70px;
+  height: 70px;
+  margin-right: 6px;
+  margin-right: 6px;
+  position: relative;
+  top: -4px;
+}
