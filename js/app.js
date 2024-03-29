@@ -53,10 +53,7 @@
 
     menu.addEventListener('click', ()=> list.classList.toggle('menu__links--show'));
 
-
-
 })();
 
-//Carrusel
 var copy = document.querySelector(".logos-slide").cloneNode(true);
 document.querySelector(".logos").appendChild(copy);

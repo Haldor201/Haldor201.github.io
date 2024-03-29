@@ -28,7 +28,7 @@
     <header>
         <nav class="menu">
             <section class="menu__container">
-                <h1 class="menu__logo"><img class="logoimg" src="./imgs/Logo_Avalos_car_formato_01-removebg-preview.png" alt="">AVALOS-CAR</h1>
+                <div class="logoPrincipal"><img class="logoimg" src="./imgs/Logo_Avalos_car_formato_01-removebg-preview.png" alt=""><h1 class="menu__logo">AVALOS-CAR</h1></div>
     
                 <ul class="menu__links">
                     <li class="menu__item">
@@ -71,7 +71,7 @@
                 <h1 class="text-center"> A cerca de Nosotros</h1>
                 <br>
                 <div class="container-fluid text-center row myvP" >
-                    <div class="col-6 myv">
+                    <div data-aos="flip-up" class=" col-6 myv">
                         <h3>Misión</h3>
                         <p style="text-align: justify;">
                             Brindar servicios de calidad para la satisfacción de nuestros clientes, 
@@ -79,7 +79,7 @@
                         </p>
                     </div>
 
-                    <div class="col-6 myv">
+                    <div data-aos="flip-up" class=" col-6 myv">
                         <h3>Visión</h3>
                         <p style="text-align: justify;">Ser una las empresas más confiables y 
                             líderes del mercado, con tecnología de punta y personal capacitado, 
@@ -94,22 +94,22 @@
     <h2 class="text-center trabajadoreh">Equipo de trabajo</h2>
     <div class="container-fluid" id="personal">
         <div class="row container-fluid personal text-center" style="margin: auto;">
-            <div class="col-lg-3 col-md-3" >
+            <div data-aos="flip-down" class="col-lg-3 col-md-3" >
                 <img class="img_personal" src="./imgs/undraw_male_avatar_g98d.svg" alt="p1">
                 <h4>JHON AVALOS</h4>
                 <p>GERENTE OPERACIONES </p>
             </div>
-            <div class="col-lg-3 col-md-3">
+            <div data-aos="flip-down" class="col-lg-3 col-md-3">
                 <img class="img_personal" src="./imgs/undraw_male_avatar_g98d.svg" alt="p2">
                 <h4>HILSEN PAREDES</h4>
                 <p>GERENTE DE ADMINISTRACIÓN Y FINANZAS</p>
             </div>
-            <div class="col-lg-3 col-md-3">
+            <div data-aos="flip-down" class="col-lg-3 col-md-3">
                 <img class="img_personal" src="./imgs/undraw_male_avatar_g98d.svg" alt="p3">
                 <h4>JULISA PAREDES</h4>
                 <p>RECURSOS HUMANOS</p>
             </div>
-            <div class="col-lg-3 col-md-3">
+            <div data-aos="flip-down" class="col-lg-3 col-md-3">
                 <img class="img_personal" src="./imgs/undraw_male_avatar_g98d.svg" alt="p4">
                 <h4>HELLEN CASTAÑEDA</h4>
                 <p>CONTABILIDAD</p>
@@ -231,4 +231,8 @@
 </body>
     <script src="./js/bootstrap.bundle.min.js"></script>
     <script src="./js/app.js"></script>
+    <script src="./js/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
 </html>

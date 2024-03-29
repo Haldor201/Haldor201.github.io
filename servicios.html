@@ -28,7 +28,7 @@
     <header>
         <nav class="menu">
             <section class="menu__container">
-                <h1 class="menu__logo"><img class="logoimg" src="./imgs/Logo_Avalos_car_formato_01-removebg-preview.png" alt="">AVALOS-CAR</h1>
+                <div class="logoPrincipal"><img class="logoimg" src="./imgs/Logo_Avalos_car_formato_01-removebg-preview.png" alt=""><h1 class="menu__logo">AVALOS-CAR</h1></div>
     
                 <ul class="menu__links">
                     <li class="menu__item">
@@ -39,7 +39,6 @@
                     </li>
                     <li class="menu__item menu__item--show">
                         <a  href="./servicios.html" class="menu__link">Servicios <img src="./imgs/arrow.svg" class="menu__arrow"></a>
-        
                         <ul class="menu__nesting">
                             <li class="menu__inside">
                                 <a href="#Desabolladura" class="menu__link menu__link--inside">Desabolladura</a>
@@ -66,42 +65,66 @@
     </header>
     <!--Servicios-->
     <div class="container text-center servicios-container">
-        <h1>Servicios:</h1>
+        <h1 class="tracking-in-expand">Servicios:</h1>
         <div class="container-fluid servicios" id="Desabolladura">
             <h3>Desabolladura:</h3>
-            <div class="txtS row container-fluid">
+            <div data-aos="flip-right" class="txtS row container-fluid">
                 <p style="text-align: justify;" class="col-6">¡Confía en Avalos-Car para devolverle a tu vehículo su forma original! 
                     Nuestros expertos en desabolladura utilizan técnicas precisas y herramientas avanzadas para eliminar abolladuras y daños, 
                     dejando tu automóvil impecable. Recupera la apariencia y la elegancia de tu vehículo con nuestro servicio de 
                     desabolladura de calidad superior. En Avalos-Car, tu satisfacción es nuestra prioridad.
                     ¡Devuelve la perfección a tu auto con nuestro servicio especializado en desabolladura!
                 </p>
-                    <img class="serviciosimgp col-6" src="./imgs/desabolladura.jpg" alt="">
             </div>
-            <div class="row contenido">
+            <div data-aos="flip-right" class="row contenido">
                 <h5 class="">Antes</h5>
-                <img class="serviciosimg col-6" src="./imgs/car.jpg" alt="">
+                <img class="serviciosimg col-6" src="./imgs/image00008.jpeg" alt="">
                 <p style="text-align: justify;" class="col-6">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere nesciunt odio natus quo 
                     laboriosam soluta, accusamus nisi consequuntur culpa nulla at iste vitae, pariatur nam 
                     dolorem quos itaque ut labore! Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </p>
             </div>
-            <div class="row contenido">
+            <div data-aos="flip-left" class="row contenido">
                 <h5>Despues</h5>
                 <p style="text-align: justify;" class="col-6">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere nesciunt odio natus quo 
                     laboriosam soluta, accusamus nisi consequuntur culpa nulla at iste vitae, pariatur nam 
                     dolorem quos itaque ut labore! Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </p>
-                <img class="serviciosimg" src="./imgs/car.jpg" alt="">
+                <img class="serviciosimg" src="./imgs/image00013.jpeg" alt="">
             </div>
-            <div class="container contenido">
-                <video class="desabolladuraVideo" src="./video/Vídeo de un hermoso Bosque.mp4" controls></video>
+            <div data-aos="flip-down" class="container contenido">
+                <video class="desabolladuraVideo" src="./video/IMG_1895.mov" controls></video>
             </div>
+            <!-- Gallery -->
+            <div class="container">
+
+                <h1 class="fw-light text-center text-lg-start mt-4 mb-0">Nuestro Trabajo</h1>
             
+                <hr class="mt-2 mb-5">
+            
+                <div class="row text-center text-lg-start">
+                    <div data-aos="flip-down" class="col-lg-3 col-md-4 mb-4 col-6">
+                        <img class="img-fluid img-thumbnail" src="./imgs/image00009.jpeg" alt="">
+
+                    </div>
+                    <div data-aos="flip-down" class="col-lg-3 col-md-4 mb-4 col-6">
+                        <img class="img-fluid img-thumbnail" src="./imgs/image00008.jpeg" alt="">
+
+                    </div>
+                    <div data-aos="flip-down" class="col-lg-3 col-md-4 mb-4 col-6">
+                        <img class="img-fluid img-thumbnail" src="./imgs/image00010.jpeg" alt="">
+                    </div>
+                    <div data-aos="flip-down" class="col-lg-3 col-md-4 mb-4 col-6">
+                        <img class="img-fluid img-thumbnail" src="./imgs/image00011.jpeg" alt="">
+                    </div>
+                </div>
+            
+            </div>
+            <!-- Gallery -->
         </div>
         <div class="container-fluid servicios" id="Pintura">
-            <h3>Pintura:</h3>
-            <div class="txtS row container-fluid">
+            <h3 class="tracking-in-expand">Pintura:</h3>
+            <div data-aos="flip-right" class="txtS row container-fluid">
                 <p style="text-align: justify;" class="col-6">
                     ¡Renueva el aspecto de tu vehículo con el servicio de pintura de Avalos-Car! 
                     Nuestros expertos en pintura automotriz utilizan técnicas vanguardistas y productos de alta 
@@ -110,38 +133,63 @@
                     excepcionales. Confía en nosotros para resaltar la belleza de tu vehículo y devolverle su esplendor. 
                     ¡Descubre la diferencia con Avalos-Car, donde la pintura se convierte en arte automotriz!
                 </p>
-                    <img class="serviciosimgp col-6" src="./imgs/pintura.jpg" alt="">
             </div>
-            <div class="row contenido">
+            <div data-aos="flip-right" class="row contenido">
                 <h5 class="">Antes</h5>
-                <img class="serviciosimg col-6" src="./imgs/car.jpg" alt="">
+                <img class="serviciosimg col-6" src="./imgs/image00023.jpeg" alt="">
                 <p style="text-align: justify;" class="col-6">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere nesciunt odio natus quo 
                     laboriosam soluta, accusamus nisi consequuntur culpa nulla at iste vitae, pariatur nam 
                     dolorem quos itaque ut labore! Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </p>
             </div>
-            <div class="row contenido">
+            <div data-aos="flip-left" class="row contenido">
                 <h5>Despues</h5>
                 <p style="text-align: justify;" class="col-6">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere nesciunt odio natus quo 
                     laboriosam soluta, accusamus nisi consequuntur culpa nulla at iste vitae, pariatur nam 
                     dolorem quos itaque ut labore! Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </p>
-                <img class="serviciosimg" src="./imgs/car.jpg" alt="">
+                <img class="serviciosimg" src="./imgs/image00024.jpeg" alt="">
             </div>
-            <div class="container-fluid contenido">
-                <video class="desabolladuraVideo" src="./video/Vídeo de un hermoso Bosque.mp4" controls></video>
+            <div data-aos="flip-down" class="container-fluid contenido">
+                <video class="desabolladuraVideo" src="./video/IMG_0127.mov" controls></video>
             </div>  
+            <!-- Gallery -->
+            <div class="container">
+
+                <h1 class="fw-light text-center text-lg-start mt-4 mb-0">Nuestro Trabajo</h1>
+                        
+                <hr class="mt-2 mb-5">
+                        
+                <div class="row text-center text-lg-start">
+                    <div data-aos="flip-down" class="col-lg-3 col-md-4 mb-4 col-6">
+                        <img class="img-fluid img-thumbnail" src="./imgs/image00032.jpeg" alt="">
+            
+                    </div>
+                    <div data-aos="flip-down" class="col-lg-3 col-md-4 mb-4 col-6">
+                        <img class="img-fluid img-thumbnail" src="./imgs/image00003.jpeg" alt="">
+            
+                    </div>
+                    <div data-aos="flip-down" class="col-lg-3 col-md-4 mb-4 col-6">
+                        <img class="img-fluid img-thumbnail" src="./imgs/image00004.jpeg" alt="">
+                    </div>
+                    <div data-aos="flip-down" class="col-lg-3 col-md-4 mb-4 col-6">
+                        <img class="img-fluid img-thumbnail" src="./imgs/image00005.jpeg" alt="">
+                    </div>
+                </div>
+                        
+            </div>
+                        <!-- Gallery -->
         </div>
         <div class="container-fluid servicios" id="Otros">
             <h3>Otros Servicios:</h3>
-            <div class="txtS">
+            <div data-aos="flip-right" class="txtS">
                 <p style="text-align: justify;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere nesciunt odio natus quo 
                     laboriosam soluta, accusamus nisi consequuntur culpa nulla at iste vitae, pariatur nam 
                     dolorem quos itaque ut labore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Error harum quibusdam 
                     vel praesentium amet sed totam dignissimos doloribus aspernatur, alias impedit voluptatem suscipit itaque 
                     consequatur necessitatibus minus perspiciatis soluta? Labore? </p>
             </div>
-            <div class="row contenido">
+            <div data-aos="flip-right" class="row contenido">
                 <h4>Servicio 1</h4>
                 <img class="serviciosimg col-6" src="./imgs/car.jpg" alt="">
                 <p style="text-align: justify;" class="col-6">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere nesciunt odio natus quo 
@@ -149,7 +197,7 @@
                     dolorem quos itaque ut labore! Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </p>
             </div>
-            <div class="row contenido">
+            <div data-aos="flip-left" class="row contenido">
                 <h4>Servicio 2</h4>
                 <p style="text-align: justify;" class="col-6">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere nesciunt odio natus quo 
                     laboriosam soluta, accusamus nisi consequuntur culpa nulla at iste vitae, pariatur nam 
@@ -157,7 +205,7 @@
                 </p>
                 <img class="serviciosimg" src="./imgs/car.jpg" alt="">
             </div>
-            <div class="row contenido">
+            <div data-aos="flip-right" class="row contenido">
                 <h4>Servicio 3</h4>
                 <img class="serviciosimg col-6" src="./imgs/car.jpg" alt="">
                 <p style="text-align: justify;" class="col-6">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere nesciunt odio natus quo 
@@ -165,7 +213,7 @@
                     dolorem quos itaque ut labore! Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </p>
             </div>
-            <div class="row contenido">
+            <div data-aos="flip-left" class="row contenido">
                 <h4>Servicio 4</h4>
                 <p style="text-align: justify;" class="col-6">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere nesciunt odio natus quo 
                     laboriosam soluta, accusamus nisi consequuntur culpa nulla at iste vitae, pariatur nam 
@@ -250,4 +298,8 @@
 </body>
 <script src="./js/bootstrap.bundle.min.js"></script>
 <script src="./js/app.js"></script>
+<script src="./js/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </html>
