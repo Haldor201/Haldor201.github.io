@@ -18,7 +18,7 @@ h3{
   padding: 0;
 }
 body{
-        background-color: #0c0e13;
+        background-color: #1A202C;
 }
 .contenedorPImg{
         height: 650px;
@@ -341,7 +341,7 @@ nav{
 
 .slider {
   margin-top: 30px;
-  background-color: #0c0e13;
+  background-color: #1A202C;
   padding: 8em 2em;
   position: relative;
 }
@@ -356,12 +356,12 @@ nav{
 }
 .slider:before {
   left: 0;
-  background: linear-gradient(to left, rgba(255, 255, 255, 0), #0c0e13);
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), #1A202C);
 }
 
 .slider:after {
   right: 0;
-  background: linear-gradient(to right, rgba(255, 255, 255, 0), #0c0e13);
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), #1A202C);
 }
 
 @keyframes scroll {
