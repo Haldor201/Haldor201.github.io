@@ -205,9 +205,10 @@ nav{
 .principal-info{
   font-size: 25px;
     position: relative;
-    padding-top: 30px;
     display: grid;
-    place-items: center;
+    place-items: center;  
+    top: 50px;
+    z-index: 100;
 }
 .clientes{
     padding-top: 50px;
