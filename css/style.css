@@ -205,7 +205,7 @@ nav{
 .principal-info{
   font-size: 25px;
     position: relative;
-    padding-top: 50px;
+    padding-top: 30px;
     display: grid;
     place-items: center;
 }
@@ -322,8 +322,6 @@ nav{
 }
 .Marcas{
     text-align: center;
-    padding-top: 20px;
-    
 }
 
 .imgS {
@@ -333,14 +331,13 @@ nav{
 }
 
 .slide-track {
-  width: 100%;
+  width: 90%;
   display: flex;
   gap: 3em;
   overflow: hidden;
 }
 
 .slider {
-  margin-top: 30px;
   background-color: #1A202C;
   padding: 8em 2em;
   position: relative;
@@ -503,6 +500,7 @@ nav{
 .comp-kq5dfsdv{
   padding: 0;
   width: 50%;
+  font-size: 0.8em;
 }
 ol{
   list-style:none ;
@@ -831,3 +829,4 @@ hr:after {
   }
 }
 
+.oscuro{background-color: #0c0e13;}
